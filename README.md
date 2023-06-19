@@ -20,11 +20,11 @@ The Insurance Cost Prediction project aims to analyze the relationship between a
 
 ## Usage
 1. Open a terminal or command prompt.
-2. Navigate to the project directory.
-3. Run the project: `insurance_cost_prediction.py`
-4. The project will load the `insurance.csv` dataset and display a scatter plot showing the relationship between age and insurance charges.
-5. The project will then fit a linear regression model to the data and plot the regression line over the scatter plot to visualize the trend.
-6. The resulting plot provides insights into how age affects insurance costs and can be used to make predictions for insurance charges based on age.
+3. Navigate to the project directory.
+4. Run the project: `insurance_cost_prediction.py`
+5. The project will load the `insurance.csv` dataset and display a scatter plot showing the relationship between age and insurance charges.
+6. The project will then fit a linear regression model to the data and plot the regression line over the scatter plot to visualize the trend.
+7. The resulting plot provides insights into how age affects insurance costs and can be used to make predictions for insurance charges based on age.
 
 ## Results
 The scatter plot shows the distribution of insurance charges based on age, while the red line represents the linear regression model's prediction for insurance charges. The plot helps understand the relationship between age and insurance costs, indicating that as age increases, insurance charges tend to rise.
@@ -65,10 +65,10 @@ The Movie Similarity project uses the spaCy library to calculate the similarity 
 ## Installation
 To use the Movie Similarity project, follow these steps:
 
-1.Clone the repository: git clone https://github.com/LylaLiu/movie_similarity.git
-2.Navigate to the project directory: cd movie-similarity
-3.Install the required dependencies: pip install spacy
-4.Download the English language model: python -m spacy download en_core_web_md
+1.Clone the repository: git clone https://github.com/LylaLiu/movie_similarity.git.
+2.Navigate to the project directory: cd movie-similarity.
+3.Install the required dependencies: pip install spacy.
+4.Download the English language model: python -m spacy download en_core_web_md.
 5.Update the file_path variable with the correct path to the movies.txt file on your system.
 6.Save the file.
 

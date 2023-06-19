@@ -51,4 +51,10 @@ input_list = [
     ["-", "-", "-", "-", "-"]
 ]
 
+output_list = minesweeper_solver(input_list)
+
+# Print the output list
+for row in output_list:
+    print(row)
+
 

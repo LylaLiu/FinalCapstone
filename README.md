@@ -13,5 +13,23 @@ The Holiday Cost Calculator is a Python program that calculates the total cost o
    - Enter the number of days you will hire a car for.
 5. The program will calculate and display the plane cost, hotel cost, car rental cost, and the total holiday cost.
 
+# Insurance Cost Prediction
+
+## Description
+The Insurance Cost Prediction project aims to analyze the relationship between age and insurance charges using linear regression. The project uses the `insurance.csv` dataset, which includes information such as age, sex, BMI, number of children, smoking status, region, and insurance charges. By fitting a linear regression model, the project visualizes how age affects insurance costs and provides predictions for insurance charges based on age.
+
+## Usage
+1. Open a terminal or command prompt.
+2. Navigate to the project directory.
+3. Run the project: `python insurance_cost_prediction.py`
+4. The project will load the `insurance.csv` dataset and display a scatter plot showing the relationship between age and insurance charges.
+5. The project will then fit a linear regression model to the data and plot the regression line over the scatter plot to visualize the trend.
+6. The resulting plot provides insights into how age affects insurance costs and can be used to make predictions for insurance charges based on age.
+
+## Results
+The scatter plot shows the distribution of insurance charges based on age, while the red line represents the linear regression model's prediction for insurance charges. The plot helps understand the relationship between age and insurance costs, indicating that as age increases, insurance charges tend to rise.
+
+
+
 
 

@@ -41,3 +41,14 @@ To use the Minesweeper Solver function, follow these steps:
 3. The function will generate an output list with the number of adjacent mines for each cell.
 4. Iterate through the output list to access and use the solved representation of the Minesweeper game.
 
+```python
+# Example Usage
+input_list = [
+    ["-", "-", "-", "#", "#"],
+    ["-", "#", "-", "-", "-"],
+    ["-", "-", "#", "-", "-"],
+    ["-", "#", "#", "-", "-"],
+    ["-", "-", "-", "-", "-"]
+]
+
+

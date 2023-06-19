@@ -20,11 +20,11 @@ The Insurance Cost Prediction project aims to analyze the relationship between a
 
 ## Usage
 1. Open a terminal or command prompt.
-2. Navigate to the project directory.
-3. Run the project: `insurance_cost_prediction.py`
-4. The project will load the `insurance.csv` dataset and display a scatter plot showing the relationship between age and insurance charges.
-5. The project will then fit a linear regression model to the data and plot the regression line over the scatter plot to visualize the trend.
-6. The resulting plot provides insights into how age affects insurance costs and can be used to make predictions for insurance charges based on age.
+3. Navigate to the project directory.
+4. Run the project: `insurance_cost_prediction.py`
+5. The project will load the `insurance.csv` dataset and display a scatter plot showing the relationship between age and insurance charges.
+6. The project will then fit a linear regression model to the data and plot the regression line over the scatter plot to visualize the trend.
+7. The resulting plot provides insights into how age affects insurance costs and can be used to make predictions for insurance charges based on age.
 
 ## Results
 The scatter plot shows the distribution of insurance charges based on age, while the red line represents the linear regression model's prediction for insurance charges. The plot helps understand the relationship between age and insurance costs, indicating that as age increases, insurance charges tend to rise.
@@ -56,5 +56,39 @@ output_list = minesweeper_solver(input_list)
 # Print the output list
 for row in output_list:
     print(row)
+```
+# 4.Movie Similarity
 
+## Description
+The Movie Similarity project uses the spaCy library to calculate the similarity between movie descriptions. Given a reference movie description, the program compares it to a list of pre-defined movie descriptions and identifies the most similar movie. It helps users discover similar movies based on their preferences and interests.
+
+## Installation
+To use the Movie Similarity project, follow these steps:
+
+1. Install the required dependencies: `pip install spacy`
+2. Download the English language model: `python -m spacy download en_core_web_md`
+3. Open the script `movie_similarity.py` in a text editor.
+4. Update the `file_path` variable with the correct path to the `movies.txt` file on your system.
+5. Save the file.
+
+## Usage
+1. Open a terminal or command prompt.
+2. Navigate to the project directory: `cd movie-similarity`.
+3. Run the project: `python movie_similarity.py`.
+4. The program will load the `movies.txt` file and calculate the similarity between the reference movie description and each movie in the list.
+5. The program will display the similarity score for each movie, indicating how similar it is to the reference description.
+6. The program will identify the most similar movie and display it as the next recommended movie.
+
+## Example Output
+Here is an example output from running the script:
+
+Movie 1 - 0.723
+
+Movie 2 - 0.635
+
+Movie 3 - 0.802
+
+...
+
+Next movie: Movie 3
 

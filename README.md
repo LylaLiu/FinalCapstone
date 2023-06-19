@@ -80,11 +80,11 @@ To use the Movie Similarity project, follow these steps:
 6. The program will identify the most similar movie and display it as the next recommended movie.
 
 ## Example Output
-Here is an example output from running the script:
-Movie 1 - 0.723
-Movie 2 - 0.635
-Movie 3 - 0.802
-...
+Here is an example output from running the script:<br>
+Movie 1 - 0.723 <br>
+Movie 2 - 0.635 <br>
+Movie 3 - 0.802 <br>
+...<br>
 
 Next movie: Movie 3
 

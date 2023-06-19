@@ -83,8 +83,12 @@ To use the Movie Similarity project, follow these steps:
 Here is an example output from running the script:
 
 Movie 1 - 0.723
+
 Movie 2 - 0.635
+
 Movie 3 - 0.802
+
 ...
+
 Next movie: Movie 3
 

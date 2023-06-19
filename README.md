@@ -21,7 +21,7 @@ The Insurance Cost Prediction project aims to analyze the relationship between a
 ## Usage
 1. Open a terminal or command prompt.
 2. Navigate to the project directory.
-3. Run the project: `python insurance_cost_prediction.py`
+3. Run the project: `insurance_cost_prediction.py`
 4. The project will load the `insurance.csv` dataset and display a scatter plot showing the relationship between age and insurance charges.
 5. The project will then fit a linear regression model to the data and plot the regression line over the scatter plot to visualize the trend.
 6. The resulting plot provides insights into how age affects insurance costs and can be used to make predictions for insurance charges based on age.
@@ -29,7 +29,15 @@ The Insurance Cost Prediction project aims to analyze the relationship between a
 ## Results
 The scatter plot shows the distribution of insurance charges based on age, while the red line represents the linear regression model's prediction for insurance charges. The plot helps understand the relationship between age and insurance costs, indicating that as age increases, insurance charges tend to rise.
 
+# Minesweeper Solver
 
+## Description
+The Minesweeper Solver is a Python function that takes an input list representing a Minesweeper game and generates an output list with the number of mines adjacent to each cell. The input list uses "-" to represent empty cells and "#" to represent mines. The function iterates through each cell, counts the surrounding mines, and populates the output list with the count values. The resulting output list provides a solved representation of the Minesweeper game.
 
-
+## Usage
+To use the Minesweeper Solver function, follow these steps:
+1. Import the function into your Python script or Jupyter Notebook.
+2. Define an input list representing your Minesweeper game.
+3. The function will generate an output list with the number of adjacent mines for each cell.
+4. Iterate through the output list to access and use the solved representation of the Minesweeper game.
 

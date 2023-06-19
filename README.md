@@ -82,42 +82,6 @@ To use the Movie Similarity project, follow these steps:
 ## Example Output
 Here is an example output from running the script:
 
-当你将此文本复制到GitHub的README.md文件中时，请记得将以下信息替换为适合你项目的实际内容：
-
-markdown
-Copy code
-# Movie Similarity
-
-## Description
-The Movie Similarity project uses the spaCy library to calculate the similarity between movie descriptions. Given a reference movie description, the program compares it to a list of pre-defined movie descriptions and identifies the most similar movie. It helps users discover similar movies based on their preferences and interests.
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Example Output](#example-output)
-
-## Installation
-To use the Movie Similarity project, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/movie-similarity.git`
-2. Navigate to the project directory: `cd movie-similarity`
-3. Install the required dependencies: `pip install spacy`
-4. Download the English language model: `python -m spacy download en_core_web_md`
-5. Open the script `movie_similarity.py` in a text editor.
-6. Update the `file_path` variable with the correct path to the `movies.txt` file on your system.
-7. Save the file.
-
-## Usage
-1. Open a terminal or command prompt.
-2. Navigate to the project directory: `cd movie-similarity`.
-3. Run the project: `python movie_similarity.py`.
-4. The program will load the `movies.txt` file and calculate the similarity between the reference movie description and each movie in the list.
-5. The program will display the similarity score for each movie, indicating how similar it is to the reference description.
-6. The program will identify the most similar movie and display it as the next recommended movie.
-
-## Example Output
-Here is an example output from running the script:
-
 Movie 1 - 0.723
 Movie 2 - 0.635
 Movie 3 - 0.802

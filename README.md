@@ -1,4 +1,4 @@
-# Holiday Cost Calculator
+# 1.Holiday Cost Calculator
 
 ## Description
 The Holiday Cost Calculator is a Python program that calculates the total cost of a holiday trip. It takes into account the destination city, the number of nights staying at a hotel, and the number of days hiring a car. The program calculates the costs for the plane ticket, hotel accommodation, and car rental, providing the user with the total cost of their holiday.
@@ -13,7 +13,7 @@ The Holiday Cost Calculator is a Python program that calculates the total cost o
    - Enter the number of days you will hire a car for.
 5. The program will calculate and display the plane cost, hotel cost, car rental cost, and the total holiday cost.
 
-# Insurance Cost Prediction
+# 2.Insurance Cost Prediction
 
 ## Description
 The Insurance Cost Prediction project aims to analyze the relationship between age and insurance charges using linear regression. The project uses the `insurance.csv` dataset, which includes information such as age, sex, BMI, number of children, smoking status, region, and insurance charges. By fitting a linear regression model, the project visualizes how age affects insurance costs and provides predictions for insurance charges based on age.
@@ -29,7 +29,7 @@ The Insurance Cost Prediction project aims to analyze the relationship between a
 ## Results
 The scatter plot shows the distribution of insurance charges based on age, while the red line represents the linear regression model's prediction for insurance charges. The plot helps understand the relationship between age and insurance costs, indicating that as age increases, insurance charges tend to rise.
 
-# Minesweeper Solver
+# 3.Minesweeper Solver
 
 ## Description
 The Minesweeper Solver is a Python function that takes an input list representing a Minesweeper game and generates an output list with the number of mines adjacent to each cell. The input list uses "-" to represent empty cells and "#" to represent mines. The function iterates through each cell, counts the surrounding mines, and populates the output list with the count values. The resulting output list provides a solved representation of the Minesweeper game.

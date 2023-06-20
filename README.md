@@ -74,21 +74,17 @@ To use the Movie Similarity project, follow these steps:
 ## Usage
 1. Open a terminal or command prompt.
 2. Navigate to the project directory: `cd movie-similarity`.
-3. Run the project: `python movie_similarity.py`.
+3. Run the project: `movie_similarity.py`.
 4. The program will load the `movies.txt` file and calculate the similarity between the reference movie description and each movie in the list.
 5. The program will display the similarity score for each movie, indicating how similar it is to the reference description.
 6. The program will identify the most similar movie and display it as the next recommended movie.
 
 ## Example Output
-Here is an example output from running the script:
-
-Movie 1 - 0.723
-
-Movie 2 - 0.635
-
-Movie 3 - 0.802
-
-...
+Here is an example output from running the script:<br>
+Movie 1 - 0.723 <br>
+Movie 2 - 0.635 <br>
+Movie 3 - 0.802 <br>
+...<br>
 
 Next movie: Movie 3
 
